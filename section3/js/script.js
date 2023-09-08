@@ -16,7 +16,7 @@ $(function () {
 
   $('li')
     .not(function (index) {
-      return index % 3 === 1;
+      return index % 3 === 2;
     })
     .css('background-color', 'rgba(180, 180, 30, 0.8)');
 });
